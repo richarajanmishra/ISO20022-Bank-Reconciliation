@@ -1,0 +1,23 @@
+1. About Severn Group
+Suggested: Severn Group is a fictional UK-headquartered insurance services group with three entities. It reports in GBP. All data in this project is dummy data created for a portfolio simulation.
+
+2. Entities
+
+Severn UK (GBP): insurance services, policyholder and corporate customers
+Severn US (USD): sales of services to US customers
+Severn India (INR): shared services centre (not part of Project 1)
+
+3. Bank accounts in scope
+
+Account	Entity	Currency	Used for
+GB29SEVN60161331926819	Severn UK	GBP	Customer receipts, supplier payments, claims
+GB54SEVN60161331926820	Severn UK	EUR	Receipts from European customers
+US11SEVN00012345678901	Severn US	USD	Customer receipts and supplier payments
+
+4. Cash flows
+
+Money in: customer receipts against invoices (INV- references)
+Money out: supplier payments (PAY- references) and policyholder claim payments
+
+5. Scope of this project
+Daily reconciliation of the three bank accounts for 5–9 October 2026 using ISO 20022 camt.053 statements, matched to the cash ledger. Each account is reconciled in its own currency; balances are converted to GBP only for the group cash position.
